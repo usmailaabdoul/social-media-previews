@@ -21,13 +21,13 @@ npm install social-media-previews
 
 ## Platform Previews
 
-| Platform | Light Mode | Dark Mode |
-|----------|------------|-----------|
-| Facebook | ![Facebook Light](./screenshots/facebook-light.png) | ![Facebook Dark](./screenshots/facebook-dark.png) |
-| Twitter/X | ![Twitter Light](./screenshots/twitter-light.png) | ![Twitter Dark](./screenshots/twitter-dark.png) |
-| Instagram | ![Instagram Light](./screenshots/instagram-light.png) | ![Instagram Dark](./screenshots/instagram-dark.png) |
-| LinkedIn | ![LinkedIn Light](./screenshots/linkedin-light.png) | ![LinkedIn Dark](./screenshots/linkedin-dark.png) |
-| Bluesky | ![Bluesky Light](./screenshots/bluesky-light.png) | ![Bluesky Dark](./screenshots/bluesky-dark.png) |
+| Platform | Light Mode |
+|----------|------------|
+| Facebook | ![Facebook Light](./previews/facebook-light.png)|
+| Twitter/X | ![Twitter Light](./previews/twitter-light.png) |
+| Instagram | ![Instagram Light](./previews/instagram-light.png) |
+| LinkedIn | ![LinkedIn Light](./previews/linkedin-light.png) |
+| Bluesky | ![Bluesky Light](./previews/bluesky-light.png) |
 
 ## Quick Start
 
