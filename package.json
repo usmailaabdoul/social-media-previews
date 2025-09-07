@@ -1,6 +1,6 @@
 {
   "name": "social-media-previews",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React components for social media platform previews",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -32,8 +32,16 @@
     "linkedin",
     "bluesky"
   ],
-  "author": "",
+  "author": "Usmaila Abdoul",
   "license": "MIT",
+  "homepage": "https://social-mocker.vercel.app/?utm_source=npm&utm_medium=package-page&utm_campaign=social-media-previews&utm_content=homepage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usmailaabdoul/social-media-previews"
+  },
+  "bugs": {
+    "url": "https://github.com/usmailaabdoul/social-media-previews/issues"
+  },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
