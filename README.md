@@ -303,12 +303,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT © Usmaila Abdoul
-
-## Changelog
-
-### v1.0.3
-- Initial release
-- Support for Facebook, Twitter, Instagram, LinkedIn, and Bluesky
-- Light and dark theme support
-- TypeScript definitions
-- Responsive design
