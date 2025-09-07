@@ -20,9 +20,8 @@ const defaultValues = {
   postImages: undefined,
 };
 
-export function BlueskyPreview({ form, theme, values }: SocialComponentProps<BlueskyFormValues>) {
+export function BlueskyPreview({ theme, values }: SocialComponentProps<BlueskyFormValues>) {
   const [showFullText, setShowFullText] = useState(false);
-  const formValues = form ? form.watch() : values;
   const {
     profilePicture,
     displayName,
@@ -35,7 +34,7 @@ export function BlueskyPreview({ form, theme, values }: SocialComponentProps<Blu
     verified,
     postImages,
     shareCount
-  } = formValues || defaultValues;
+  } = values || defaultValues;
 
   const { mobileWidth } = platformDimensions['bluesky'];
 

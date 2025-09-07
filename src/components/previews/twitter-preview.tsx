@@ -20,9 +20,8 @@ const defaultValues = {
   postImages: undefined,
 };
 
-export function TwitterPreview({ form, theme, values }: SocialComponentProps<TwitterFormValues>) {
+export function TwitterPreview({ theme, values }: SocialComponentProps<TwitterFormValues>) {
   const [showFullText, setShowFullText] = useState(false);
-  const formValues = form ? form.watch() : values;
 
   const {
     profilePicture,
@@ -36,7 +35,7 @@ export function TwitterPreview({ form, theme, values }: SocialComponentProps<Twi
     commentCount,
     verified,
     postImages,
-  } = formValues || defaultValues;
+  } = values || defaultValues;
 
   const { mobileWidth } = platformDimensions['twitter'];
 

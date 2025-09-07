@@ -17,8 +17,7 @@ const defaultValues = {
   postImages: undefined,
 }
 
-export const LinkedInPreview = ({ form, theme, values }: SocialComponentProps<LinkedInFormValues>) => {
-  const formValues = form ? form.watch() : values;
+export const LinkedInPreview = ({ theme, values }: SocialComponentProps<LinkedInFormValues>) => {
   
   const {
     fullName,
@@ -31,7 +30,7 @@ export const LinkedInPreview = ({ form, theme, values }: SocialComponentProps<Li
     timestamp,
     postImages,
     verified,
-  } = formValues || defaultValues;
+  } = values || defaultValues;
 
   const formattedPostText = formatText(
     truncateText(postText, 250),

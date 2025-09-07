@@ -1,9 +1,6 @@
-import { FieldValues, UseFormReturn } from "react-hook-form";
-
 import { platformProp, theme } from "../type";
 
-export interface SocialComponentProps<TFormValues extends FieldValues> {
-  form?: UseFormReturn<TFormValues>;
+export interface SocialComponentProps<TFormValues> {
   theme?: theme; 
   values?: TFormValues;
 }

@@ -20,9 +20,8 @@ const defaultValues = {
   viewCount: 100,
 };
 
-export function FacebookPreview({ form, theme, values }: SocialComponentProps<FacebookFormValues>) {
+export function FacebookPreview({ theme, values }: SocialComponentProps<FacebookFormValues>) {
   // const [showFullText, setShowFullText] = useState(false);
-  const formValues = form ? form.watch() : values;
   const {
     fullName,
     profilePicture,
@@ -34,7 +33,7 @@ export function FacebookPreview({ form, theme, values }: SocialComponentProps<Fa
     verified,
     postImages,
     viewCount,
-  } = formValues || defaultValues;
+  } = values || defaultValues;
   
   const { mobileWidth } = platformDimensions['facebook'];
   const [firstImageOrientation, setFirstImageOrientation] = useState<"landscape" | "portrait">('landscape');

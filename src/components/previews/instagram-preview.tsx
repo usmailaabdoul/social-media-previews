@@ -18,8 +18,7 @@ const defaultValues = {
   postImages: undefined,
 };
 
-export function InstagramPreview({ form, theme = 'light', values }: SocialComponentProps<InstagramFormValues>) {
-  const formValues = form ? form.watch() : values;
+export function InstagramPreview({ theme = 'light', values }: SocialComponentProps<InstagramFormValues>) {
 
   const {
     profilePicture,
@@ -31,7 +30,7 @@ export function InstagramPreview({ form, theme = 'light', values }: SocialCompon
     commentCount,
     timestamp,
     verified,
-  } = formValues || defaultValues;
+  } = values || defaultValues;
   
   const { mobileWidth } = platformDimensions['instagram'];
 
