@@ -306,7 +306,7 @@ MIT © [Your Name]
 
 ## Changelog
 
-### v1.0.0
+### v1.0.1
 - Initial release
 - Support for Facebook, Twitter, Instagram, LinkedIn, and Bluesky
 - Light and dark theme support
