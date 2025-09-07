@@ -2,7 +2,7 @@
 
 A React component library for rendering social media platform previews. Perfect for social media management tools, content scheduling apps, or any application that needs to show how posts will appear across different platforms.
 
-> 🎨 **Try it live**: See these components in action at [Social Mocker](https://social-mocker.vercel.app/) - a free web app that lets you create pixel-perfect social media post mockups with customizable content and export them as high-resolution images.
+> 🎨 **Try it live**: See these components in action at [Social Mocker]([https://social-mocker.vercel.app/](https://social-mocker.vercel.app/?utm_source=github&utm_medium=readme&utm_campaign=social-media-previews&utm_content=try-it-live)) - a free web app that lets you create pixel-perfect social media post mockups with customizable content and export them as high-resolution images.
 
 ## Features
 
@@ -21,13 +21,13 @@ npm install social-media-previews
 
 ## Platform Previews
 
-| Platform | Light Mode |
-|----------|------------|
-| Facebook | ![Facebook Light](./previews/facebook-light.png)|
-| Twitter/X | ![Twitter Light](./previews/twitter-light.png) |
-| Instagram | ![Instagram Light](./previews/instagram-light.png) |
-| LinkedIn | ![LinkedIn Light](./previews/linkedin-light.png) |
-| Bluesky | ![Bluesky Light](./previews/bluesky-light.png) |
+| Platform | Light Mode | dark Mode |
+|----------|------------| ------------|
+| Facebook | <img width="390" height="632" alt="Screenshot 2025-08-31 at 18 25 14" src="https://github.com/user-attachments/assets/4b63a6b5-c6cc-4eaf-91e2-ecec7f837f41" /> | <img width="390" height="633" alt="Screenshot 2025-09-07 at 12 29 03" src="https://github.com/user-attachments/assets/dbd41f89-4a9c-4c47-a94d-34ef519a624b" /> |
+| Twitter/X | <img width="390" height="581" alt="Screenshot 2025-08-31 at 18 25 48" src="https://github.com/user-attachments/assets/47438551-6b81-4ac0-b513-a4f5018643cf" /> |<img width="390" height="577" alt="Screenshot 2025-09-07 at 12 29 45" src="https://github.com/user-attachments/assets/5e503646-0a6c-472e-8908-2f5239568366" /> |
+| Instagram | <img width="390" height="604" alt="Screenshot 2025-08-31 at 18 26 33" src="https://github.com/user-attachments/assets/b9a8d392-42b7-451a-8a70-53a45e981d14" /> | <img width="390" height="577" alt="Screenshot 2025-09-07 at 12 30 20" src="https://github.com/user-attachments/assets/76bec404-e71c-4119-acc8-bf16fc6930ae" /> |
+| LinkedIn | <img width="390" height="423" alt="Screenshot 2025-08-31 at 18 28 02" src="https://github.com/user-attachments/assets/a9396388-fed1-4bb8-adf3-d9167ab94dba" /> |<img width="390" height="443" alt="Screenshot 2025-09-07 at 12 33 14" src="https://github.com/user-attachments/assets/54ee0f5b-1f02-43f1-ae9a-27ceaaf424c0" /> |
+| Bluesky | <img width="390" height="359" alt="Screenshot 2025-08-31 at 18 27 23" src="https://github.com/user-attachments/assets/70871993-4364-4e9d-ae89-69c2ff3896df" /> | <img width="390" height="356" alt="Screenshot 2025-09-07 at 12 31 12" src="https://github.com/user-attachments/assets/52596b36-2914-4a29-bbf2-7699a8443db2" /> |
 
 ## Quick Start
 
