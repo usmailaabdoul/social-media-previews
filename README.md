@@ -2,7 +2,7 @@
 
 A React component library for rendering social media platform previews. Perfect for social media management tools, content scheduling apps, or any application that needs to show how posts will appear across different platforms.
 
-> 🎨 **Try it live**: See these components in action at [Social Mocker]([https://social-mocker.vercel.app/](https://social-mocker.vercel.app/?utm_source=github&utm_medium=readme&utm_campaign=social-media-previews&utm_content=try-it-live)) - a free web app that lets you create pixel-perfect social media post mockups with customizable content and export them as high-resolution images.
+> 🎨 **Try it live**: See these components in action at [Social Mocker](https://social-mocker.vercel.app/?utm_source=github&utm_medium=readme&utm_campaign=social-media-previews&utm_content=try-it-live) - a free web app that lets you create pixel-perfect social media post mockups with customizable content and export them as high-resolution images.
 
 ## Features
 
