@@ -302,4 +302,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT © Usmaila Abdoul
+MIT License - See [LICENSE](https://github.com/usmailaabdoul/social-media-previews/blob/main/LICENSE) file for details.
