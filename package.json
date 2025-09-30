@@ -1,6 +1,6 @@
 {
   "name": "social-media-previews",
-  "version": "1.0.4",
+  "version": "0.0.5",
   "description": "React components for social media platform previews",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -38,9 +38,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/usmailaabdoul/social-media-previews"
-  },
-  "bugs": {
-    "url": "https://github.com/usmailaabdoul/social-media-previews/issues"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
